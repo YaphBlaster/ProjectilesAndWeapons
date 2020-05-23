@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Scenes/Dragon.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Scenes/RedDragon.tscn" type="PackedScene" id=2]
+
+[node name="World" type="Node2D"]
+
+[node name="Dragon" parent="." instance=ExtResource( 1 )]
+position = Vector2( 47.3002, 95.1992 )
+
+[node name="RedDragon" parent="." instance=ExtResource( 2 )]
+position = Vector2( 292.6, 95.95 )
+
+[node name="RedDragon2" parent="." instance=ExtResource( 2 )]
+position = Vector2( 247.096, 36.0763 )
+
+[node name="RedDragon3" parent="." instance=ExtResource( 2 )]
+position = Vector2( 242.306, 146.244 )
