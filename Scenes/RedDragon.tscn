@@ -2,7 +2,9 @@
 
 [ext_resource path="res://Textures/Red Dragon.png" type="Texture" id=1]
 
-[node name="RedDragon" type="Area2D"]
+[node name="RedDragon" type="Area2D" groups=[
+"RedDragon",
+]]
 __meta__ = {
 "_edit_group_": true
 }

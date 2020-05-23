@@ -34,8 +34,12 @@ public class Fireball : Area2D
     // param: Area - external area that will be collided with
     public void _on_Fireball_area_entered(Area2D area)
     {
-        QueueFree();
-        area.QueueFree();
+        if (area.IsInGroup("RedDragon"))
+        {
+            QueueFree();
+            area.QueueFree();
+        }
+
     }
 
 }
